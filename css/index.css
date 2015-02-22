@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.stage{
+	width: 480px;
+	height: 480px;
+	margin: 0px auto;
+	margin-top: 50px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: center;
+	-webkit-perspective: 500;
+	position: relative;
+}
+.img{
+	float: left;
+	width: 112px;
+	height: 112px;
+	border: 4px solid #ccc;
+	-webkit-transition:0.8s;
+	-webkit-transform: rotateY(0deg);
+	background: #ccc;
+	backface-visibility: hidden;
+}
+.memeStage{
+	width: 480px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 0px auto;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: center;
+	-webkit-perspective: 500;
+}
+.memeda{
+	float: left;
+	width: 112px;
+	height: 112px;
+	border: 4px solid #ccc;
+	-webkit-transition:0.8s;
+	-webkit-transform: rotateY(-180deg);
+	background: white;
+	color: lightblue;
+	backface-visibility: hidden;
+	line-height: 120px;
+	text-align: center;
+	font-size: 48px;
+	cursor: pointer;
+}
+.memeda:hover{
+	color: white;
+	background: lightblue;
+};
